@@ -1,5 +1,5 @@
 from collections import OrderedDict
-from country import Country
+from .country import Country
 
 
 class Index:
@@ -30,4 +30,4 @@ class Index:
 
 
 if __name__ == "__main__":
-    print __doc__
+    print(__doc__)
